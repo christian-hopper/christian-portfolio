@@ -3,7 +3,7 @@ import { scrollToSection } from "../../utils/scrollToSection.js";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       {/* Background Glow */}
       <div className="hero__glow"></div>
 

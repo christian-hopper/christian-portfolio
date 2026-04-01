@@ -1,0 +1,202 @@
+.services {
+  padding: 80px 0;
+  background-color: #050505;
+  border-top: 1px solid #1a1a1a;
+}
+
+.services__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+.services__header {
+  text-align: center;
+  margin: 0 0 64px 0;
+}
+
+.services__header-title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+.services__header-subtitle {
+  color: #a0a0a0;
+  max-width: 912px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Card */
+.services__card {
+  position: relative;
+  background-color: #0a0a0a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 48px;
+  max-width: 910px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Glow */
+.services__glow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(0, 188, 125, 0.08), transparent);
+  filter: blur(80px);
+}
+
+/* Layout (Desktop Default) */
+.services__content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Features */
+.services__features-title {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 24px 0;
+}
+
+.services__features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services__features-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 16px 0;
+  color: #cfcfcf;
+  line-height: 1.5;
+}
+
+.services__features-item:last-child {
+  margin: 0;
+}
+
+.services__features-icon {
+  color: #00bc7d;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+}
+
+.services__features-text {
+  font-size: 16px;
+}
+
+.services__features {
+  flex: 1;
+}
+
+/* Pricing box (Desktop Default) */
+.services__pricing {
+  background-color: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  width: 280px;
+}
+
+.services__pricing-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #00bc7d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.services__pricing-amount {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 600;
+  color: #fff;
+  margin: 14px 0 24px;
+}
+
+.services__pricing-amount-separator {
+  font-size: 20px;
+  color: #777;
+  font-weight: 400;
+}
+
+/* Button */
+.services__pricing-btn--primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #00bc7d;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a0a0a;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  max-width: 346px;
+  height: 24px;
+}
+
+.services__pricing-btn--primary:hover {
+  background-color: #00a36c;
+}
+
+.services__pricing-btn-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s;
+}
+
+.services__pricing-btn--primary:hover .services__pricing-btn-arrow {
+  transform: translateX(4px);
+}
+
+/* Media Queries) */
+@media (max-width: 1024px) {
+  .services__header-subtitle {
+    max-width: 672px;
+  }
+
+  .services__card {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services__content {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .services__header-title {
+    font-size: 30px;
+  }
+
+  .services__pricing {
+    width: auto;
+  }
+
+  .services__pricing-btn--primary {
+    width: 80%;
+  }
+}

@@ -30,8 +30,8 @@ export default function Portfolio() {
         <div className="portfolio__header">
           <h2 className="portfolio__header-title">Selected Work</h2>
           <p className="portfolio__header-subtitle">
-            Recent projects built for local businesses. Fast loading,
-            responsive, and optimized for conversion.
+            Recent projects built specifically for local businesses. Fast
+            loading times, responsive, and optimized for conversion.
           </p>
         </div>
 
