@@ -119,4 +119,3 @@ This project represents my progression toward becoming a professional software e
 It is designed not just as a portfolio, but as a real-world business-ready website that reflects my skills, attention to detail, and ability to deliver high-quality frontend solutions.
 
 ---
-```
