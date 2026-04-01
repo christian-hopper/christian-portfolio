@@ -1,5 +1,32 @@
 import "./Hero.css";
 
-function Hero() {}
+export default function Hero() {
+  return (
+    <section className="hero">
+      {/* Background Glow */}
+      <div className="hero__glow"></div>
 
-export default Hero;
+      <div className="hero__container">
+        <h1 className="hero__title">
+          Web Developer focused on building{" "}
+          <span className="hero__highlight">fast, reliable</span> websites for
+          small businesses
+        </h1>
+
+        <p className="hero__subtitle">
+          Clean, responsive websites designed to help your business establish a
+          strong online presence.
+        </p>
+
+        <div className="hero__buttons">
+          <a href="#contact" className="btn btn--primary">
+            Request a Quote
+          </a>
+          <a href="#work" className="btn btn--secondary">
+            View Work
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
