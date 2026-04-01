@@ -19,10 +19,10 @@ export default function Hero() {
         </p>
 
         <div className="hero__buttons">
-          <a href="#contact" className="btn btn--primary">
+          <a href="#contact" className="hero__btn hero__btn--primary">
             Request a Quote
           </a>
-          <a href="#work" className="btn btn--secondary">
+          <a href="#work" className="hero__btn hero__btn--secondary">
             View Work
           </a>
         </div>

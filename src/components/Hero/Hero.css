@@ -15,7 +15,7 @@
   width: 1140px;
   height: 1140px;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle, rgba(74, 163, 223, 0.08), transparent);
+  background: radial-gradient(circle, rgba(0, 188, 125, 0.08), transparent);
   filter: blur(120px);
   border-radius: 50%;
   pointer-events: none;
@@ -44,7 +44,7 @@
 
 /* Highlight text */
 .hero__highlight {
-  background: linear-gradient(90deg, #4aa3df, #6ec1e4);
+  background: linear-gradient(90deg, #00bc7d, #00e0a0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,7 +67,7 @@
 }
 
 /* Base button */
-.btn {
+.hero__btn {
   padding: 14px 24px;
   border-radius: 6px;
   font-size: 16px;
@@ -77,24 +77,24 @@
 }
 
 /* Primary button */
-.btn--primary {
-  background-color: #4aa3df;
-  border: 1px solid #4aa3df;
+.hero__btn--primary {
+  background-color: #00bc7d;
+  border: 1px solid #00bc7d;
   color: #ffffff;
 }
 
-.btn--primary:hover {
-  background-color: #3b8ecf;
+.hero__btn--primary:hover {
+  background-color: #009e69;
 }
 
 /* Secondary button */
-.btn--secondary {
-  border: 1px solid #4aa3df;
+.hero__btn--secondary {
+  border: 1px solid #00bc7d;
   color: #ffffff;
 }
 
-.btn--secondary:hover {
-  background-color: #4aa3df;
+.hero__btn--secondary:hover {
+  background-color: #00bc7d;
 }
 
 /* Responsive */
