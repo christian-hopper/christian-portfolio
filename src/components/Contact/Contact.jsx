@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 import "./Contact.css";
 
-export default function Contact() {
+function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="contact__container">
@@ -13,11 +13,11 @@ export default function Contact() {
             discuss your project goals.
           </p>
           <a
-            href="mailto:hello@christianhopper.com"
+            href="mailto:hopperchristian@yahoo.com"
             className="contact__email-link"
           >
             <Mail className="contact__email-icon" />
-            hello@christianhopper.com
+            hopperchristian@yahoo.com
           </a>
         </div>
 
@@ -72,3 +72,5 @@ export default function Contact() {
     </section>
   );
 }
+
+export default Contact;

@@ -1,7 +1,8 @@
-import "./Services.css";
 import { Check, ArrowRight } from "lucide-react";
+import { scrollToSection } from "../../utils/scrollToSection";
+import "./Services.css";
 
-export default function Services() {
+function Services() {
   const features = [
     "3–5 page website",
     "Fully responsive design",
@@ -55,6 +56,10 @@ export default function Services() {
               <a
                 href="#contact"
                 className="services__pricing-btn services__pricing-btn--primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("contact");
+                }}
               >
                 Let's get started
                 <ArrowRight className="services__pricing-btn-arrow" />
@@ -66,3 +71,5 @@ export default function Services() {
     </section>
   );
 }
+
+export default Services;
