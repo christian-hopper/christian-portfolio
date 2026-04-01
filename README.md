@@ -2,13 +2,19 @@
 
 A modern, high-performance portfolio website built for a freelance web development business. This project focuses on clean typography, responsive design, and professional service offerings for small businesses.
 
-![Deployment Status](https://img.shields.io/github/deployments/christian-hopper/christian-portfolio/github-pages?label=Live%20Site&style=flat-square)
+[![Live Site](https://img.shields.io/badge/Live_Site-Visit_Now-00bc7d?style=for-the-badge&logo=github)](https://christian-hopper.github.io/christian-portfolio/)
 
 ---
 
 ## 🚀 Live Demo
 
-View the live site here: [christian-hopper.github.io/christian-portfolio/](https://christian-hopper.github.io/christian-portfolio/)
+> 👉 [Christian's Web Developer Portfolio on GitHub Pages](https://christian-hopper.github.io/christian-portfolio)
+
+---
+
+## 📂 GitHub Repository
+
+> 👉 [Repository for Christian's Web Developer Portfolio](https://github.com/christian-hopper/christian-portfolio)
 
 ---
 
@@ -66,7 +72,7 @@ The **Christian Hopper Portfolio** is a production-ready, single-page applicatio
 
 ## 📁 Project Structure
 
-```text
+```
 src/
 ├── assets/             # Images and global styles
 ├── components/         # Individual React components (BEM-structured)
@@ -76,6 +82,7 @@ src/
 │   └── ...
 ├── utils/              # scrollToSection.js utility
 └── main.jsx            # Application entry point
+```
 
 ---
 
@@ -118,4 +125,3 @@ This project represents my progression toward becoming a professional software e
 It is designed not just as a portfolio, but as a real-world business-ready website that reflects my skills, attention to detail, and ability to deliver high-quality frontend solutions.
 
 ---
-```
