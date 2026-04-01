@@ -8,7 +8,7 @@ function About() {
         <span className="about__label">About Me</span>
 
         <div className="about__content-wrapper">
-          {/* Decorative Background Glow */}
+          {/* Background Glow */}
           <div className="about__glow" aria-hidden="true" />
 
           {/* The Main Bio */}
