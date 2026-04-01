@@ -99,16 +99,16 @@
 
 /* Responsive */
 @media (max-width: 1024px) {
+  .hero {
+    padding: 128px 0 80px;
+  }
+
   .hero__title {
     font-size: 60px;
   }
 }
 
 @media (max-width: 768px) {
-  .hero {
-    padding: 128px 0 80px;
-  }
-
   .hero__title {
     font-size: 36px;
   }
