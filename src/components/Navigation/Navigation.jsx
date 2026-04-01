@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { scrollToSection } from "../../utils/scrollToSection";
 import "./Navigation.css";
 
 export default function Navigation() {
@@ -11,13 +12,6 @@ export default function Navigation() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const scrollToSection = (section) => {
-    const el = document.getElementById(section);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   const sections = ["work", "services", "about", "contact"];
 

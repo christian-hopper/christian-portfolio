@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { scrollToSection } from "../../utils/scrollToSection.js";
 
 export default function Hero() {
   return (
@@ -19,10 +20,24 @@ export default function Hero() {
         </p>
 
         <div className="hero__buttons">
-          <a href="#contact" className="hero__btn hero__btn--primary">
+          <a
+            href="#contact"
+            className="hero__btn hero__btn--primary"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("contact");
+            }}
+          >
             Request a Quote
           </a>
-          <a href="#work" className="hero__btn hero__btn--secondary">
+          <a
+            href="#work"
+            className="hero__btn hero__btn--secondary"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("work");
+            }}
+          >
             View Work
           </a>
         </div>
