@@ -66,7 +66,7 @@ The **Christian Hopper Portfolio** is a production-ready, single-page applicatio
 
 ## 📁 Project Structure
 
-```text
+```
 src/
 ├── assets/             # Images and global styles
 ├── components/         # Individual React components (BEM-structured)
@@ -76,6 +76,7 @@ src/
 │   └── ...
 ├── utils/              # scrollToSection.js utility
 └── main.jsx            # Application entry point
+```
 
 ---
 
