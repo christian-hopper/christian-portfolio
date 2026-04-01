@@ -2,7 +2,7 @@
 
 A modern, high-performance portfolio website built for a freelance web development business. This project focuses on clean typography, responsive design, and professional service offerings for small businesses.
 
-![Deployment Status](https://img.shields.io/github/deployments/christian-hopper/christian-portfolio/github-pages?label=Live%20Site&style=flat-square)
+[![Live Site](https://img.shields.io/badge/Live_Site-Visit_Now-00bc7d?style=for-the-badge&logo=github)](https://christian-hopper.github.io/christian-portfolio/)
 
 ---
 
