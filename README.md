@@ -8,7 +8,13 @@ A modern, high-performance portfolio website built for a freelance web developme
 
 ## 🚀 Live Demo
 
-View the live site here: [christian-hopper.github.io/christian-portfolio/](https://christian-hopper.github.io/christian-portfolio/)
+> 👉 [Christian's Web Developer Portfolio on GitHub Pages](https://christian-hopper.github.io/christian-portfolio)
+
+---
+
+## 📂 GitHub Repository
+
+> 👉 [Repository for Christian's Web Developer Portfolio](https://github.com/christian-hopper/christian-portfolio)
 
 ---
 
