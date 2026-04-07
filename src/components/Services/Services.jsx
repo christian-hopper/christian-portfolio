@@ -19,7 +19,7 @@ function Services() {
         <div className="services__header">
           <h2 className="services__header-title">Services</h2>
           <p className="services__header-subtitle">
-            Everything you need for a modern, functional business website
+            Everything you need for a modern, high-converting business website
             without the overhead of an agency.
           </p>
         </div>
@@ -48,9 +48,9 @@ function Services() {
               <span className="services__pricing-label">Starting At</span>
 
               <div className="services__pricing-amount">
-                $500{" "}
+                $750{" "}
                 <span className="services__pricing-amount-separator">to</span>{" "}
-                $750
+                $1000+
               </div>
 
               <a
